@@ -1,0 +1,42 @@
+# Fundamental coding with Python involving different constructs
+
+# Variables
+a = 5
+b = 10
+
+# Basic arithmetic operations
+sum = a + b
+difference = b - a
+product = a * b
+quotient = b / a
+
+# Conditional statements
+if sum > 20:
+    result = "The sum is greater than 20."
+elif sum == 20:
+    result = "The sum is exactly 20."
+else:
+    result = "The sum is less than 20."
+
+# Loops
+for i in range(5):
+    print("Loop iteration:", i)
+
+# Functions
+def greet(name):
+    return f"Hello, {name}!"
+
+# Sample function call
+greeting_message = greet("Alice")
+
+# List comprehensions
+squares = [x**2 for x in range(10)]
+
+# Printing results
+print("Sum:", sum)
+print("Difference:", difference)
+print("Product:", product)
+print("Quotient:", quotient)
+print("Result:", result)
+print("Greeting Message:", greeting_message)
+print("Squares:", squares)
