@@ -1,0 +1,12 @@
+import math
+
+def calculate_lcm_hcf(a, b):
+    hcf = math.gcd(a, b)
+    lcm = (a * b) // hcf
+    return lcm, hcf
+
+# Example usage:
+# a = 12
+# b = 18
+# lcm, hcf = calculate_lcm_hcf(a, b)
+# print("LCM:", lcm, "HCF:", hcf)  # LCM: 36 HCF: 6
