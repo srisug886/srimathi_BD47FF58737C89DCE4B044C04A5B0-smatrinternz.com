@@ -1,0 +1,8 @@
+def intersection(str1, str2):
+    return ''.join(set(str1).intersection(str2))
+
+# Example usage:
+# str1 = "python"
+# str2 = "string"
+# result = intersection(str1, str2)
+# print(result)  # Output will be any common characters in both strings, order may vary for example: "tn"
